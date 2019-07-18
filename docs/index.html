@@ -13,16 +13,26 @@
         <div class="box-title">
             <h3 class="title">AppIMC</h3>
         </div>
-    </header>
+    </header><!-- //header -->
+
     <div class="appIMC">
-        <form action="">
-            <input class="altura" type="text" value="Digite sua altura: ">
-            <input type="text" value="Digite seu peso: ">
-        </form>
+        <input type="text" value="" id="altura" placeholder="Digite sua altura">
+        <input type="text" value="" id="peso" placeholder="Digite seu peso">
+        
+        <div class="box-btn">
+            <button id="btn" onclick="calcIMC()">Calcular</button>
+        </div>
+        <p id="resultado"></p>
     </div>
-    <footer class="footer"></footer>
+
+    <footer class="footer">
+        <div class="name-developer">
+            <i class="developer">Developer by Rodrigo S. França</i>
+        </div>
+    </footer>
 
     <!-- Source JavaScript -->
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
