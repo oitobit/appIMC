@@ -1,7 +1,8 @@
 function calcIMC () {
-    var altura = parseInt(document.getElementById("altura").value);
-    var peso = parseInt(document.getElementById("peso").value);
-    var res = altura * altura / peso;
+    var altura = parseFloat(document.getElementById("altura").value);
+    var peso = parseFloat(document.getElementById("peso").value);
+    var quadrado = altura * altura;
+    var calcular = peso / (quadrado);
 
-    document.getElementById("resultado").innerHTML = res;
+    document.getElementById("resultado").innerHTML = Math.round(calcular);
 }
