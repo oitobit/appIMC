@@ -60,6 +60,10 @@
         box-sizing: border-box;
     }
 
+    p#resultado {
+        margin-top: 45px;
+    }
+
     footer.footer {
         position: fixed;
         bottom: 0px;
