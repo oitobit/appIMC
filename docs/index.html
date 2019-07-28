@@ -7,6 +7,13 @@
     <title>AppIMC</title>
     <link rel="stylesheet" href="mobile-phone.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+    <script>
+        $(function() {
+            $('#altura').maskMoney({ decimal: '.', thousands: '', precision: 2 });
+        })
+    </script>
 </head>
 <body>
     <header class="header">
